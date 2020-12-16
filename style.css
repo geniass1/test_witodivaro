@@ -1,0 +1,40 @@
+.goma__form {
+    width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border: 2px solid black;
+}
+
+.goma__fieldset {
+    display: flex;
+    flex-direction: column;
+
+    border: none;
+}
+
+.goma__label {
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.goma__input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+}
+
+.goma__submit {
+    padding: 10px 20px;
+    background-color: hsl(350, 93%, 40%);
+
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+}
